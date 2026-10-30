@@ -1,0 +1,78 @@
+\documentclass[UTF8]{ctexart}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+\title{卷积神经网络在图像识别中的应用综述}
+\author{何思颖 \\ 人工智能一班 126230501}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+本文综述了卷积神经网络的基本原理与发展历程，介绍了卷积层、池化层的核心思想，
+并通过 MNIST 手写数字识别任务验证其有效性。实验结果表明，CNN 在该任务上
+可达 99\% 以上准确率。
+\end{abstract}
+
+\section{引言}
+深度学习近年来发展迅速\cite{lecun2015}，卷积神经网络（CNN）因其参数共享和局部
+连接的特性，在图像识别领域取得了突破性进展。
+
+\subsection{研究背景}
+传统图像识别依赖手工设计特征，泛化能力有限。CNN 通过端到端学习自动提取特征，
+显著提升了识别精度。
+
+\section{方法}
+\subsection{卷积操作}
+卷积运算可表示为公式~\eqref{eq:conv}：
+\begin{equation}
+    y_i = \sum_j w_j x_{i+j} + b
+    \label{eq:conv}
+\end{equation}
+
+\subsection{网络结构}
+本文采用经典 LeNet-5 结构，包含两个卷积层与两个全连接层。
+
+\section{实验}
+\subsection{数据集}
+实验使用 MNIST 手写数字数据集，部分样本如图~\ref{fig:sample} 所示。
+
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.35\textwidth]{sample.jpg}
+    \caption{MNIST 样本示例}
+    \label{fig:sample}
+\end{figure}
+
+\subsection{实验结果}
+不同方法的准确率对比如表~\ref{tab:res} 所示。
+
+\begin{table}[htbp]
+    \centering
+    \caption{不同方法在 MNIST 上的准确率对比}
+    \begin{tabular}{lcc}
+        \toprule
+        方法 & 准确率 & 参数量 \\
+        \midrule
+        SVM & 97.8\% & 少 \\
+        MLP & 98.5\% & 中 \\
+        CNN & 99.2\% & 多 \\
+        \bottomrule
+    \end{tabular}
+    \label{tab:res}
+\end{table}
+
+\section{结论}
+本文介绍了 CNN 的核心原理并通过实验验证其有效性。未来将探索其在更复杂
+视觉任务中的应用。
+
+\begin{thebibliography}{9}
+    \bibitem{lecun2015} LeCun Y, Bengio Y, Hinton G. Deep learning[J]. Nature, 2015, 521: 436-444.
+    \bibitem{he2016} He K, Zhang X, Ren S, et al. Deep residual learning for image recognition[C]//CVPR. 2016: 770-778.
+\end{thebibliography}
+
+\end{document}

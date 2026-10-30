@@ -1,0 +1,24 @@
+\documentclass[12pt]{article}   % 文档类型：article，字号12
+\usepackage{ctex}               % 中文支持包（配合 XeLaTeX 用）
+\usepackage{geometry}           % 页边距控制
+\geometry{a4paper, margin=2.5cm}
+
+\title{我的第一个 \LaTeX{} 文档}
+\author{何思颖}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{引言}
+这是用 \LaTeX{} 排版的第一个段落。对比 Word，它的公式和长文档排版能力是碾压级的。
+
+\section{数学公式}
+著名的欧拉公式：
+\begin{equation}
+    e^{i\pi} + 1 = 0
+\end{equation}
+
+\subsection{行内公式}
+质能方程 $E = mc^2$ 是行内写法。
+\end{document}
