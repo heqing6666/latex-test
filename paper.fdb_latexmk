@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1793355440.94339 "d:/latex-test/paper.tex" "paper.pdf" "paper" 1793355442.37129 0
+["pdflatex"] 1793355691.43385 "d:/latex-test/paper.tex" "paper.pdf" "paper" 1793355692.91657 0
   "c:/Windows/Fonts/msyh.ttc" 1750727057 19704352 1e10e74402e59d54499af795caf0b135 ""
   "c:/Windows/Fonts/simhei.ttf" 1782017417 9745792 5c7fd3058dea9b77be5049ff7efa9f34 ""
   "c:/Windows/Fonts/simsun.ttc" 1782017417 18316748 0ba67eea91ba3af0ac4836d0e922d011 ""
@@ -185,10 +185,10 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1793328383 157473 022090b431ae8bdbed92b9b761ce26ee ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1793328418 2995104 9df4757ed590492f361e246ab8d861ec ""
   "c:/texlive/2026/texmf.cnf" 1793328371 713 e69b156964470283e0530f5060668171 ""
-  "d:/latex-test/paper.tex" 1793355438 2450 976971a587891da33ba0c98038ec7bac ""
-  "paper.aux" 1793355441 1711 f5cac5f910c14ccdac64faa6fa451d0d "pdflatex"
-  "paper.out" 1793355441 673 4838d37f7d90efeb40a2278919d9ff6d "pdflatex"
-  "paper.tex" 1793355438 2450 976971a587891da33ba0c98038ec7bac ""
+  "d:/latex-test/paper.tex" 1793355690 2450 42f22a5906c298e024ebbf6d1204813c ""
+  "paper.aux" 1793355692 1711 f5cac5f910c14ccdac64faa6fa451d0d "pdflatex"
+  "paper.out" 1793355692 673 4838d37f7d90efeb40a2278919d9ff6d "pdflatex"
+  "paper.tex" 1793355690 2450 42f22a5906c298e024ebbf6d1204813c ""
   "sample.jpg" 1785154887 53571 71864cd9d7f5d82e38ef89cf49265c29 ""
   (generated)
   "paper.aux"
